@@ -20,6 +20,11 @@ li > a {
   font-size: 24px;
 }
 
+h1 {
+  margin:0;
+  padding:16px;
+}
+
 .main-wrapper {
   display:flex;
   justify-content: space-between;
@@ -31,13 +36,19 @@ li > a {
   height: 72px;
   background: darkmagenta;
   color: white;
+  box-sizing: border-box;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .content-wrapper {
   display: flex;
@@ -60,6 +71,7 @@ li > a {
   flex-wrap: wrap;
   padding: 32px;
   gap:32px;
+  box-sizing: border-box;
 }
 
 .card {
@@ -70,4 +82,5 @@ li > a {
   height:300px;
   padding:16px;
   box-sizing: border-box;
+  font-size: 0.9rem;
 }
