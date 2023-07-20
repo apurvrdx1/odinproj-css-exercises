@@ -1,6 +1,6 @@
-*{
-  margin:0px;
-  padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 30px;
+  padding: 32px;
   margin: 15px;
 }
 
@@ -20,7 +20,7 @@ body {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -28,7 +28,7 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 30px;
-  margin-left: 335px;
-  display:block;
+  padding: 32px;
+  margin-left: 330px;
+  display: block;
 }
