@@ -7,36 +7,36 @@ body {
   width: 50%;
   min-width: 400px;
   background: #fff;
-  margin: 16px auto;
-  padding:16px;
+  margin: 8px auto;
+  padding: 8px;
   display: block;
 }
 
-
 .title {
   background: #e3f4ff;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   display: block;
-  padding: 16px;
-
+  padding: 8px;
+  margin: 0 0 8px 0;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
-  padding: 28px 16px 28px 16px;
-  margin-bottom: 16px;
-
+  padding: 16px 8px 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   display: block;
   background: #e3f4ff;
-  margin-bottom: 16px;
+  padding: 8px;
+  /* margin-bottom: 16px; */
 }
 
-.card .button-container{
-  padding-top: 16px;
-  padding-bottom: 16px;
+.card .button-container {
+  /* padding-top: 16px; */
+  /* padding-bottom: 16px; */
   padding-left: auto;
   padding-right: auto;
   text-align: center;
@@ -46,7 +46,11 @@ button {
   background: white;
   border: 1px solid #eee;
   display: block;
-  padding: 12px 24px;
+  padding: 8px 24px;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* h1{
+  margin: 0;
+} */
